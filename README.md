@@ -1,0 +1,2 @@
+# PHP fopen() Error Masking Bug
+This example demonstrates a common issue in PHP where `fopen()`'s error handling can mask multiple file access errors.  Only the last error is reported, leading to debugging difficulties.
